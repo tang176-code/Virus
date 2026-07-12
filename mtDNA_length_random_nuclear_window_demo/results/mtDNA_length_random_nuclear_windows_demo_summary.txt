@@ -1,0 +1,18 @@
+mtDNA-length random nuclear window demo
+============================================================
+Random seed: 20260711
+Selected random nuclear windows: 20
+Window length: 16569 bp
+Sampling scope: nuclear chromosomes 1-22, X, and Y; MT excluded
+mtDNA GC fraction: 0.443626
+Random nuclear GC median: 0.401774
+Random nuclear GC range: 0.350474-0.510652
+
+Purpose:
+  This demo controls scanned sequence length by sampling nuclear windows
+  with the same length as mtDNA. It does not match GC, CpG, or
+  dinucleotide composition.
+
+Output files:
+  mtDNA_length_random_nuclear_windows_demo.csv
+  mtDNA_length_random_nuclear_windows_demo.fa
