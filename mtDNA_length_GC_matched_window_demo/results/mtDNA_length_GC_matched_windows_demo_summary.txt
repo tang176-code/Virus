@@ -1,0 +1,14 @@
+mtDNA-length and GC-matched nuclear window demo
+============================================================
+Random seed: 20260712
+Candidate nuclear windows sampled: 1000
+Selected windows: 20
+Window length: 16569 bp
+mtDNA GC fraction: 0.443626
+Selected nuclear GC median: 0.444263
+Selected nuclear GC range: 0.441125-0.446074
+Absolute GC difference median: 0.00133118
+
+Output files:
+  mtDNA_length_GC_matched_windows_demo.csv
+  mtDNA_length_GC_matched_windows_demo.fa
