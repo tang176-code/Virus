@@ -1,0 +1,4 @@
+Similar_list_found_n,context,context_raw_hit_count,context_scan_length_bp,total_raw_hit_count_three_contexts,total_scan_length_bp_three_contexts,expected_raw_hit_count,fold_enrichment,hypergeom_overrepresentation_p_raw,hypergeom_overrepresentation_p_BH_FDR,significant_BH_FDR_0.05,hypergeom_overrepresentation_p_Holm,significant_Holm_0.05
+7,Viral genome,3348,37084,2069535430,21618041891,3550.120416690981,0.9430666025465765,0.9998438715973307,1.0,False,1.0,False
+7,Host mitochondrial genome,18105,115983,2069535430,21618041891,11103.268695099505,1.6306009065592326,0.0,0.0,True,0.0,True
+7,Host nuclear genome,2069513977,21617888824,2069535430,21618041891,2069520776.6108882,0.9999967144031773,1.0,1.0,False,1.0,False
