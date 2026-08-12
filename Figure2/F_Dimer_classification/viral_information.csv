@@ -1,0 +1,107 @@
+Genome Type,Accession,Organism_Name,Species,Genus,Family,Genome_length(bp),Protein ID,Protein annotation
+ds-DNA,NC_055230,Akhmeta virus,Orthopoxvirus akhmetapox,Orthopoxvirus,Poxviridae,221923,YP_010085611.1,ATPase: DNA packaging protein OPG160
+ds-DNA,NC_003391,Camelpox virus,Orthopoxvirus camelpox,Orthopoxvirus,Poxviridae,205719,NP_570541.1,CMLV151: putative DNA packaging protein
+ds-DNA,NC_003663,Cowpox virus,Orthopoxvirus cowpox,Orthopoxvirus,Poxviridae,224499,NP_619951.1,CPXV167: DNA packaging protein OPG160
+ds-DNA,NC_004105,Ectromelia virus,Orthopoxvirus ectromelia,Orthopoxvirus,Poxviridae,209771,NP_671558.1,DNA-binding virion core protein
+ds-DNA,NC_066642,Horsepox virus,Orthopoxvirus vaccinia,Orthopoxvirus,Poxviridae,212633,YP_010509362.1,ATPase A32: DNA packaging protein
+ds-DNA,NC_063383,Monkeypox virus,Orthopoxvirus monkeypox,Orthopoxvirus,Poxviridae,197209,YP_010377141.1,ATPase A32: DNA packaging protein
+ds-DNA,NC_006998,Orthopoxvirus vaccinia,Orthopoxvirus vaccinia,Orthopoxvirus,Poxviridae,194711,YP_233037.1,putative ATPase: DNA packaging protein
+ds-DNA,NC_001611,Variola virus,Orthopoxvirus variola,Orthopoxvirus,Poxviridae,185578,NP_042183.1,A35L: DNA packaging protein OPG160
+ds-DNA,NC_005179,Yaba monkey tumor virus,Yatapoxvirus yabapox,Yatapoxvirus,Poxviridae,134721,NP_938377.1,121L: DNA packaging protein OPG160
+ds-DNA,NC_002642,Yaba-like disease virus,Yatapoxvirus tanapox,Yatapoxvirus,Poxviridae,144575,NP_073506.1,121L protin: DNA packaging protein OPG160
+ds-DNA,NC_013804,Pseudocowpox virus,Parapoxvirus pseudocowpox,Parapoxvirus,Poxviridae,145289,YP_003457415.1,ATPase: DNA packaging protein
+ds-DNA,NC_005337,Bovine papular stomatitis virus,Parapoxvirus bovinestomatitis,Parapoxvirus,Poxviridae,134431,NP_958017.1,DNA packaging protein
+ds-DNA,NC_005336,Orf virus,Parapoxvirus orf,Parapoxvirus,Poxviridae,139962,NP_957885.1,ATPase: ORF108 DNA packaging protein
+ds-DNA,NC_035469,NY_014 poxvirus,NY_014 poxvirus,Centapoxvirus,Poxviridae,200223,YP_009408533.1,DNA packaging protein
+ds-DNA,NC_001731,Molluscum contagiosum virus subtype 1,Molluscipoxvirus molluscum,Molluscipoxvirus,Poxviridae,190289,NP_044091.1,MC140L: DNA packaging protein OPG160
+ds-DNA,NC_012783,Cercopithecine betaherpesvirus 5,Cytomegalovirus cercopithecinebeta5,Cytomegalovirus,Orthoherpesviridae,226205,YP_004936014.1,UL38
+ds-DNA,NC_006273,Human betaherpesvirus 5,Cytomegalovirus humanbeta5,Cytomegalovirus,Orthoherpesviridae,235646,YP_081497.1,UL38
+ds-DNA,NC_027016,Papio ursinus cytomegalovirus,Cytomegalovirus cercopithecinebeta5,Cytomegalovirus,Orthoherpesviridae,226084,YP_009137490.1,UL38
+ds-DNA,NC_007605,Human gammaherpesvirus 4,Lymphocryptovirus humangamma4,Lymphocryptovirus,Orthoherpesviridae,171823,YP_401654.1,capsid triplex subunit 1
+ds-DNA,NC_009334,Human herpesvirus 4 type 2,Lymphocryptovirus humangamma4,Lymphocryptovirus,Orthoherpesviridae,172764,YP_001129451.1,capsid triplex subunit 1
+ds-DNA,NC_001806,Human alphaherpesvirus 1,Simplexvirus humanalpha1,Simplexvirus,Orthoherpesviridae,152222,YP_009137113.1,UL38: capsid triplex subunit 1
+ds-DNA,NC_076164,Macacine alphaherpesvirus 1,Simplexvirus macacinealpha1,Simplexvirus,Orthoherpesviridae,157447,YP_010797338.1,UL38: capsid triplex subunit 1
+ds-DNA,NC_007653,Papiine alphaherpesvirus 2,Simplexvirus papiinealpha2,Simplexvirus,Orthoherpesviridae,156487,YP_443885.1,UL38: capsid triplex subunit 1
+ds-DNA,NC_006151,Suid alphaherpesvirus 1,Varicellovirus suidalpha1,Varicellovirus,Orthoherpesviridae,143461,YP_068341.1,UL38: capsid triplex subunit 1
+ds-DNA,NC_001348,Human alphaherpesvirus 3,Varicellovirus humanalpha3,Varicellovirus,Orthoherpesviridae,124884,NP_040143.1,capsid triplex subunit 1
+ds-DNA,NC_009333,Human gammaherpesvirus 8,Rhadinovirus humangamma8,Rhadinovirus,Orthoherpesviridae,137969,YP_001129419.1,UL38: ORF62
+ds-DNA,NC_000898,Human betaherpesvirus 6B,Roseolovirus humanbeta6b,Roseolovirus,Orthoherpesviridae,162114,NP_050210.1,Capsid assembly and DNA maturation
+ds-DNA,NC_029255,Myotis gammaherpesvirus 8,Myotis gammaherpesvirus 8,,Orthoherpesviridae,129563,YP_009229896.1,ORF62: capsid triplex subunit 1
+ds-DNA,NC_001460,Human mastadenovirus A,Mastadenovirus adami,Mastadenovirus,Adenoviridae,34125,YP_002640219.1,22K
+ds-DNA,NC_011203,Human mastadenovirus B,Mastadenovirus blackbeardi,Mastadenovirus,Adenoviridae,35343,YP_002213784.1,encapsidation protein 22K
+ds-DNA,NC_001405,Human mastadenovirus C,Mastadenovirus caesari,Mastadenovirus,Adenoviridae,35937,YP_001551767.1,encapsidation protein 22K
+ds-DNA,NC_010956,Human mastadenovirus D,Mastadenovirus dominans,Mastadenovirus,Adenoviridae,35083,YP_001974456.1,22K
+ds-DNA,NC_003266,Human mastadenovirus E,Mastadenovirus exoticum,Mastadenovirus,Adenoviridae,35994,YP_068037.1,22K
+ds-DNA,NC_001454,Human mastadenovirus F,Mastadenovirus faecale,Mastadenovirus,Adenoviridae,34214,NP_040867.1,22K
+ds-DNA,NC_016895,bat adenovirus 3,Mastadenovirus musauriti,Mastadenovirus,Adenoviridae,31806,YP_005271181.1,IVa2 protein
+ds-DNA,,,,,,,YP_005271187.1,pVII: Pre-histone-like nucleoprotein (L2)
+ds-DNA,NC_029899,Bat mastadenovirus WIV10,Mastadenovirus rhinolopidae,Mastadenovirus,Adenoviridae,37556,YP_009246379.1,IVa2: Packaging protein 1
+ds-DNA,NC_012959,Human adenovirus 54,Mastadenovirus dominans,Mastadenovirus,Adenoviridae,34920,YP_003038602.1,PIVa2: Packaging protein 1
+ds-DNA,NC_006879,Simian adenovirus 1,Mastadenovirus russelli,Mastadenovirus,Adenoviridae,34450,YP_213965.1,IVa2: Packaging protein 1
+ds-DNA,NC_020487,Titi monkey adenovirus ECC-2011,Mastadenovirus simuli,Mastadenovirus,Adenoviridae,36838,YP_007518320.1,"pX: mu,Core-capsid bridging protein"
+ds-DNA,NC_017825,Chimpanzee adenovirus Y25,Mastadenovirus exoticum,Mastadenovirus,Adenoviridae,36711,YP_006272959.1,PVII
+ds-DNA,NC_034253,LI polyomavirus,Alphapolyomavirus quardecihominis,Alphapolyomavirus,Polyomaviridae,5269,YP_009352870.1,VP1
+ds-DNA,NC_010277,Merkel cell polyomavirus,Alphapolyomavirus quintihominis,Alphapolyomavirus,Polyomaviridae,5387,YP_009111420.1,VP1
+ds-DNA,NC_014361,Trichodysplasia spinulosa-associated polyomavirus,Alphapolyomavirus octihominis,Alphapolyomavirus,Polyomaviridae,5232,YP_003800006.1,VP1
+ds-DNA,NC_024118,New Jersey polyomavirus-2013,Alphapolyomavirus terdecihominis,Alphapolyomavirus,Polyomaviridae,5108,YP_009030018.1,VP2
+ds-DNA,NC_001538,Betapolyomavirus hominis,Betapolyomavirus hominis,Betapolyomavirus,Polyomaviridae,5153,YP_717939.1,VP1
+ds-DNA,,,,,,,YP_717937.1,VP2
+ds-DNA,NC_001669,Betapolyomavirus macacae,Betapolyomavirus macacae,Betapolyomavirus,Polyomaviridae,5243,NP_043126.1,VP1
+ds-DNA,NC_009238,Betapolyomavirus tertihominis,Betapolyomavirus tertihominis,Betapolyomavirus,Polyomaviridae,5040,YP_001111258.1,VP1
+ds-DNA,,,,,,,YP_001111256.1,VP2
+ds-DNA,NC_075121,Betapolyomavirus securanorvegicus,Betapolyomavirus securanorvegicus,Betapolyomavirus,Polyomaviridae,5104,YP_010782993.1,VP1
+ds-DNA,NC_001699,JC polyomavirus,Betapolyomavirus secuhominis,Betapolyomavirus,Polyomaviridae,5130,NP_043511.1,VP1
+ds-DNA,NC_009539,WU Polyomavirus,Betapolyomavirus quartihominis,Betapolyomavirus,Polyomaviridae,5229,YP_001285487.1,VP1
+ds-DNA,NC_018102,MW polyomavirus,Deltapolyomavirus decihominis,Deltapolyomavirus,Polyomaviridae,4927,YP_006495788.1,VP1
+ds-DNA,NC_020106,STL polyomavirus,Deltapolyomavirus undecihominis,Deltapolyomavirus,Polyomaviridae,4776,YP_007354884.1,VP1
+ds-DNA,NC_001357,human papillomavirus 18,Alphapapillomavirus 7,Alphapapillomavirus,Papillomaviridae,7857,NP_040316.1,L2
+ds-DNA,NC_015692,Colobus guereza papillomavirus 2,Betapapillomavirus 1,Betapapillomavirus,Papillomaviridae,7686,YP_004646343.1,L1: major capsid L1 protein
+ds-DNA,NC_040806,Gammapapillomavirus sp.,Gammapapillomavirus sp.,Gammapapillomavirus,Papillomaviridae,7328,YP_009553535.1,L1
+ds-DNA,NC_001354,Human papillomavirus type 41,Nupapillomavirus 1,Nupapillomavirus,Papillomaviridae,7614,NP_040293.1,L2
+ds-DNA,NC_001458,Human papillomavirus type 63,Mupapillomavirus 2,Mupapillomavirus,Papillomaviridae,7348,NP_040901.1,L2
+ds-DNA,NC_003494,Infectious spleen and kidney necrosis virus,Megalocytivirus pagrus1,Megalocytivirus,Iridoviridae,111362,NP_612228.1,putative major capsid protein
+ss-DNA,NC_012042,Human bocavirus 2c PK,Bocaparvovirus primate2,Bocaparvovirus,Parvoviridae,5196,YP_002586775.1,VP1
+ss-DNA,NC_005889,Bovine adeno-associated virus,Dependoparvovirus mammalian1,Dependoparvovirus,Parvoviridae,4693,YP_024971.1,capsid
+ss-DNA,NC_004295,Human erythrovirus V9,Human erythrovirus V9,Erythroparvovirus,Parvoviridae,5028,NP_694865.1,VP1 
+ss-DNA,NC_000883,Human parvovirus B19,Erythroparvovirus primate1,Erythroparvovirus,Parvoviridae,5596,YP_004928146.1,capsid protein
+ss-DNA,NC_076998,Human CSF-associated densovirus,Iteradensovirus incertum2,Iteradensovirus,Parvoviridae,4678,YP_010802392.1,structural protein VP
+ss-DNA,NC_039050,Cutavirus,Protoparvovirus primate3,Protoparvovirus,Parvoviridae,4456,YP_009508805.1,putative VP1
+ss-DNA,NC_075988,Tusavirus 1,Protoparvovirus incertum1,Protoparvovirus,Parvoviridae,4424,YP_010796333.1,putative VP1
+ss-DNA,NC_007018,Human parvovirus 4 G1,Tetraparvovirus primate1,Tetraparvovirus,Parvoviridae,5268,YP_238483.1,ORF2:367-910
+ss-DNA,NC_022089,Parvovirus NIH-CQV,Nicoomyvirus moldensis,Nicoomyvirus,Oomyviridae,3780,YP_008431134.1,putative capsid protein
+ss-DNA,NC_024888,Bufavirus-3,Bufavirus-3,,Parvoviridae,4733,YP_009058895.1,putative VP1 
+ss-DNA,NC_014480,Torque teno virus 2,Alphatorquevirus homin2,Alphatorquevirus,Anelloviridae,3322,YP_004021043.1,ORF1: capsid protein
+ss-DNA,NC_076234,Torque teno mini virus 10,Betatorquevirus homini10,Betatorquevirus,Anelloviridae,2839,YP_010797731.1,ORF1: capsid protein
+ss-DNA,NC_076339,TTV-like mini virus,TTV-like mini virus,Betatorquevirus,Anelloviridae,2907,YP_010798139.1,ORF1: capsid protein
+ss-DNA,NC_009225,Torque teno midi virus 1,Gammatorquevirus homidi1,Gammatorquevirus,Anelloviridae,3245,YP_001109584.1,hypothetical protein: capsid protein
+ss-DNA,NC_001427,Chicken anemia virus,Gyrovirus chickenanemia,Gyrovirus,Anelloviridae,2319,NP_056775.1,nucleocapsid protein
+ss-DNA,NC_018401,Gyrovirus 4,Gyrovirus homsa3,Gyrovirus,Anelloviridae,2034,YP_006576517.1,VP1
+ss-DNA,NC_017091,Gyrovirus GyV3,Gyrovirus homsa1,Gyrovirus,Anelloviridae,2359,YP_005454312.1,VP1
+ss-DNA,NC_022789,Gyrovirus Tu789,Gyrovirus homsa2,Gyrovirus,Anelloviridae,2282,YP_008798241.1,VP1
+ss-DNA,NC_007013,Small anellovirus 1,Small anellovirus,,Anelloviridae,2249,YP_238295.1,capsid protein: ORF2
+ss-DNA,NC_007014,Small anellovirus 2,Small anellovirus,,Anelloviridae,2635,YP_238299.1,capsid protein: ORF3
+ss-DNA,NC_075375,Anelloviridae sp.,Anelloviridae sp.,,Anelloviridae,2368,YP_010790235.1,hypothetical protein: 1-541
+ss-DNA,NC_024694,Human circovirus VS6600022,Amaruvirus aka,Amaruvirus,Pecoviridae,2836,YP_009051962.1,capsid protein
+ss-DNA,NC_038392,Human stool-associated circular virus NG13,Circovirus eniyan,Circovirus,Circoviridae,1699,YP_009506284.1,capsid protein
+ss-DNA,NC_038412,Cyclovirus PK5510,Cyclovirus maanav,Cyclovirus,Circoviridae,1759,YP_009506318.1,capsid protein
+ss-DNA,NC_023874,Human associated cyclovirus 10,Cyclovirus humana,Cyclovirus,Circoviridae,1790,YP_009021870.2,capsid protein
+ss-DNA,NC_032682,Indian encephalitis associated cyclovirus,Cyclovirus manusyan,Cyclovirus,Circoviridae,1723,YP_009333617.1,capsid protein
+ss-DNA,NC_075996,Human PoSCV5-like circular virus,Human PoSCV5-like circular virus,,Circoviridae,3018,YP_010796351.1,cap protein
+ss-DNA,NC_076496,Gemycircularvirus sp.,Gemycircularvirus sp.,Gemycircularvirus,Genomoviridae,2174,YP_010798589.1,capsid protein
+ss-DNA,NC_028459,Human associated gemyvongvirus 1,Gemyvongvirus humas1,Gemyvongvirus,Genomoviridae,2272,YP_009181995.1,capsid protein
+ss-DNA,NC_026817,Human genital-associated circular DNA virus-1,Gemygorvirus sewopo1,Gemygorvirus,Genomoviridae,2235,YP_009130659.1,capsid protein
+ss-DNA,NC_026161,Sewage-associated gemycircularvirus 5,Gemygorvirus sewopo1,Gemygorvirus,Genomoviridae,2243,YP_009115521.1,capsid protein
+ss-DNA,NC_038497,Human gemycircularvirus GeTz1,Gemykibivirus humas4,Gemykibivirus,Genomoviridae,2202,YP_009506631.1,capsid protein
+ss-DNA,NC_026809,Mongoose feces-associated gemycircularvirus c,Gemykibivirus humas3,Gemykibivirus,Genomoviridae,2123,YP_009130627.1,capsid protein
+ss-DNA,NC_024691,MSSI2.225 virus,Gemykibivirus humas1,Gemykibivirus,Genomoviridae,2259,YP_009051836.1,capsid protein
+ss-DNA,NC_026169,Sewage-associated gemycircularvirus-10a,Gemykibivirus humas1,Gemykibivirus,Genomoviridae,2249,YP_009115531.1,capsid protein
+ss-DNA,NC_026818,Gemycircularvirus SL1,Gemykibivirus humas2,Gemykibivirus,Genomoviridae,2199,YP_009130660.1,capsid protein
+ss-DNA,NC_039061,Human associated huchismacovirus 1,Huchismacovirus humas1,Huchismacovirus,Smacoviridae,2460,YP_009508841.1,cap protein
+ss-DNA,NC_026252,Human smacovirus 1,Human smacovirus 1,Huchismacovirus,Smacoviridae,2460,YP_009116878.1,cap protein
+ss-DNA,NC_076251,Human associated porprismacovirus,Inpeasmacovirus humas1,Inpeasmacovirus,Smacoviridae,2607,YP_010797910.1,capsid protein
+ss-DNA,NC_076235,Human associated porprismacovirus 3,Porprismacovirus humas4,Porprismacovirus,Smacoviridae,2388,YP_010797735.1,capsid protein
+ss-DNA,NC_039070,Human feces smacovirus 2,Porprismacovirus humas1,Porprismacovirus,Smacoviridae,2601,YP_009508864.1,capsid protein
+ss-DNA,NC_075341,Human feces smacovirus 3,Porprismacovirus humas3,Porprismacovirus,Smacoviridae,2511,YP_010784665.1,hypothetical capsid protein
+ss-DNA,NC_055523,Human lung-associated vientovirus FB,Torbevirus viento,Torbevirus,Redondoviridae,3056,YP_010087238.1,capsid protein
+rt-DNA,NC_004107,Woodchuck hepatitis virus,Orthohepadnavirus marmotae,Orthohepadnavirus,Hepadnaviridae,3323,NP_671816.1,capsid protein
+ss-DNA,MF094135,Ambidensovirus sp.,Protoambidensovirus incertum3,Protoambidensovirus,Parvoviridae,3693,AVM80381.1,capsid protein
