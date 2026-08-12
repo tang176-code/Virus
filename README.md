@@ -1,0 +1,350 @@
+# Human Virus SELEX Figure Data
+
+For detailed experimental and computational methods, please refer to the manuscript.
+
+This repository contains source data, PWM matrices, plotting scripts, and rendered figures for the Human Virus SELEX analyses. Files are organized by figure panel. All paths below are relative to the repository root.
+
+## Repository Structure
+
+```text
+Figure1/
+  PWM/                                  HT-SELEX PWM matrices for 33 viral proteins
+  B_PWM_length.txt                      Source data for PWM length distribution
+  B_plot_pwm_length_distribution.py     Plot script for panel B
+  C_HT-SELEX_sstat.txt                  HT-SELEX PWM similarity table
+  C_plot_pwm_similarity_network.py      Plot script for panel C
+  D_Humanvirus_phylogenetic tree.treefile
+  D_Humanvirus_protein_sequence.fastq
+  F-H_BInding_distribution.csv          Source data for panels F-H
+  F-H_plot_binding_distribution.py      Plot script for panels F-H
+  H_Similar_MT_binding/                 Source data, plot, and enrichment analysis for selected similar proteins
+
+Figure2/
+  A_MitoChIP-qPCR_rawdata.txt           Raw data for panel A
+  B_JC-1_rawdata.txt                    Raw data for panel B
+  PWM/                                  HT-SELEX and ssDNA-SELEX PWM matrices
+  E_ssDNA-SELEX_sstat.txt               Source data for panel E PWM similarity network
+  E_plot_pwm_similarity_network.py      Plot script for panel E
+  F_Dimer_classification/               Motif monomer/dimer classification outputs and plot
+
+other scripts/
+  mtDNA_length_random_nuclear_window_demo/
+                                         Demo for mtDNA-length random nuclear windows
+  mtDNA_length_GC_matched_window_demo/   Demo for mtDNA-length and GC-matched nuclear windows
+  pwm_shuffle_example/                   Minimal PWM base-label shuffle example
+```
+
+## Figure 1
+
+### PWM Matrices
+
+`Figure1/PWM/` contains 33 HT-SELEX PWM matrices. File names use the format:
+
+```text
+HT-SELEX_<Protein_ID>_pwm.txt
+```
+
+### Panel B: PWM Length Distribution
+
+Source data:
+
+```text
+Figure1/B_PWM_length.txt
+```
+
+Script:
+
+```text
+Figure1/B_plot_pwm_length_distribution.py
+```
+
+Outputs:
+
+```text
+Figure1/B_PWM_length_distribution.pdf
+Figure1/B_PWM_length_distribution.png
+```
+
+### Panel C: HT-SELEX PWM Similarity Network
+
+Source data:
+
+```text
+Figure1/C_HT-SELEX_sstat.txt
+```
+
+Script:
+
+```text
+Figure1/C_plot_pwm_similarity_network.py
+```
+
+Outputs:
+
+```text
+Figure1/C_HT-SELEX_PWM_similarity_network.pdf
+Figure1/C_HT-SELEX_PWM_similarity_network.png
+Figure1/C_HT-SELEX_PWM_similarity_network.svg
+```
+
+### Panel D: Phylogenetic Tree and Protein Sequences
+
+Files:
+
+```text
+Figure1/D_Humanvirus_phylogenetic tree.treefile
+Figure1/D_Humanvirus_protein_sequence.fastq
+```
+
+Tree and sequence labels use `Protein_ID_Family` names.
+
+### Panels F-H: Binding Distribution
+
+Source data:
+
+```text
+Figure1/F-H_BInding_distribution.csv
+```
+
+Script:
+
+```text
+Figure1/F-H_plot_binding_distribution.py
+```
+
+Outputs:
+
+```text
+Figure1/F-H_Binding_distribution_three_panel.pdf
+Figure1/F-H_Binding_distribution_three_panel.png
+```
+
+### Panel H: Similar Protein mtDNA Binding
+
+Directory:
+
+```text
+Figure1/H_Similar_MT_binding/
+```
+
+Key files:
+
+```text
+similar7_MT_binding.csv
+similar7_MT_binding_summary.csv
+plot_similar_MT_binding.py
+similar7virus_MT_dot_order_genomelength_zhexian.pdf
+similar7virus_MT_dot_order_genomelength_zhexian.png
+Similar_list_three_context_hypergeometric_pooled_enrichment.py
+data/Binding.csv
+data/merge_df_similar_list.csv.xz
+data/PWM_fimo_result/
+results/Similar_list_three_context_hypergeometric_pooled_results.csv
+results/Similar_list_three_context_hypergeometric_per_protein_results.csv
+results/Similar_list_three_context_pooled_found_ids.csv
+results/Similar_list_three_context_missing_ids.csv
+results/Similar_list_three_context_hypergeometric_pooled_enrichment.pdf
+results/Similar_list_three_context_hypergeometric_pooled_enrichment.png
+results/Similar_list_three_context_hypergeometric_pooled_observed_expected_heatmap.pdf
+results/Similar_list_three_context_hypergeometric_pooled_observed_expected_heatmap.png
+```
+
+The Similar_list three-context hypergeometric enrichment analysis compares raw
+FIMO motif hit counts across viral genome, host mitochondrial genome, and host
+nuclear genome contexts. Of the 9 Similar_list proteins, 7 have binding/raw-count
+results and are included; `YP_010782993.1` and `AVM80381.1` are absent from
+`Binding.csv` and are reported in the missing-ID output.
+
+## Figure 2
+
+### Panels A and B
+
+Raw data:
+
+```text
+Figure2/A_MitoChIP-qPCR_rawdata.txt
+Figure2/B_JC-1_rawdata.txt
+```
+
+### Panel E: ssDNA-SELEX PWM Similarity Network
+
+Source data:
+
+```text
+Figure2/E_ssDNA-SELEX_sstat.txt
+```
+
+Script:
+
+```text
+Figure2/E_plot_pwm_similarity_network.py
+```
+
+Outputs:
+
+```text
+Figure2/E_PWM_similarity_network.pdf
+Figure2/E_PWM_similarity_network.png
+Figure2/E_PWM_similarity_network.svg
+```
+
+`PWM_short` denotes the truncated dsDNA PWM for `YP_008431134.1`, generated by retaining the first 9 positions of the original 11-bp dsDNA PWM.
+
+### Panel F: Monomer and Dimer Motif Distribution by Genome Type
+
+Directory:
+
+```text
+Figure2/F_Dimer_classification/
+```
+
+Key files:
+
+```text
+classification.tsv
+doublets.tsv
+summary.json
+F_dimer_motif_by_genome_type_source_data.csv
+F_dimer_motif_by_genome_type_counts.csv
+F_plot_dimer_motif_by_genome_type.py
+F_dimer_motif_by_genome_type_stacked_bar.pdf
+F_dimer_motif_by_genome_type_stacked_bar.png
+F_dimer_motif_by_genome_type_stacked_bar.svg
+```
+
+The included dimer classification contains 33 proteins:
+
+```text
+Monomer: 27
+Dimer: 6
+```
+
+The stacked bar plot includes dsDNA and ssDNA proteins:
+
+```text
+Genome_Type,Monomer,Dimer
+dsDNA,21,3
+ssDNA,5,3
+```
+
+## Other Scripts
+
+`other scripts/` contains small reproducible demos for control analyses and PWM
+shuffling. These scripts are not tied to a single figure panel.
+
+### mtDNA-length Random Nuclear Window Demo
+
+Directory:
+
+```text
+other scripts/mtDNA_length_random_nuclear_window_demo/
+```
+
+Key files:
+
+```text
+README.md
+run_mtDNA_length_random_nuclear_window_demo.py
+results/mtDNA_length_random_nuclear_windows_demo.csv
+results/mtDNA_length_random_nuclear_windows_demo.fa
+results/mtDNA_length_random_nuclear_windows_demo_summary.txt
+```
+
+This demo samples random nuclear windows with the same length as human mtDNA
+(`16,569 bp`) from chromosomes `1-22`, `X`, and `Y`; chromosome `MT` is
+excluded. It controls scanned nucleotide length and random genomic position, but
+does not match GC, CpG, dinucleotide, or other sequence-composition features.
+
+### mtDNA-length and GC-matched Nuclear Window Demo
+
+Directory:
+
+```text
+other scripts/mtDNA_length_GC_matched_window_demo/
+```
+
+Key files:
+
+```text
+README.md
+run_mtDNA_length_GC_matched_window_demo.py
+results/mtDNA_length_GC_matched_windows_demo.csv
+results/mtDNA_length_GC_matched_windows_demo.fa
+results/mtDNA_length_GC_matched_windows_demo_summary.txt
+```
+
+This demo selects nuclear windows with the same length as human mtDNA and ranks
+candidate windows by absolute GC-content difference from mtDNA after filtering
+windows with excessive `N` content.
+
+Both nuclear-window demos use Ensembl release 110 / GRCh38 FASTA files and
+require a FASTA index for the nuclear genome, for example:
+
+```bash
+samtools faidx Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa
+```
+
+See each demo folder's `README.md` for the exact reference FASTA download
+commands and command-line options.
+
+### PWM Base-label Shuffle Example
+
+Directory:
+
+```text
+other scripts/pwm_shuffle_example/
+```
+
+Key files:
+
+```text
+README.md
+example_pwm_base_label_shuffle.py
+```
+
+This minimal example shows the base-label-shuffling procedure used to generate
+matched control PWMs. At each PWM position, the four probability values are kept
+unchanged while the A/C/G/T labels are randomly permuted, preserving motif length
+and per-position information content while disrupting the original nucleotide
+preference.
+
+## Reproducing Plots
+
+Install the Python dependencies:
+
+```bash
+pip install numpy pandas matplotlib seaborn networkx scipy statsmodels
+```
+
+Run plotting scripts from the repository root:
+
+```bash
+python Figure1/B_plot_pwm_length_distribution.py
+python Figure1/C_plot_pwm_similarity_network.py
+python Figure1/F-H_plot_binding_distribution.py
+python Figure1/H_Similar_MT_binding/plot_similar_MT_binding.py
+python Figure1/H_Similar_MT_binding/Similar_list_three_context_hypergeometric_pooled_enrichment.py
+python Figure2/E_plot_pwm_similarity_network.py
+python Figure2/F_Dimer_classification/F_plot_dimer_motif_by_genome_type.py
+```
+
+The scripts write PDF, PNG, and/or SVG outputs next to their source data or into
+panel-specific `results/` directories.
+
+Run the supplemental examples from the repository root:
+
+```bash
+python "other scripts/pwm_shuffle_example/example_pwm_base_label_shuffle.py"
+python "other scripts/mtDNA_length_random_nuclear_window_demo/run_mtDNA_length_random_nuclear_window_demo.py" \
+  --genome-fasta "other scripts/mtDNA_length_random_nuclear_window_demo/input/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa" \
+  --mtdna-fasta "other scripts/mtDNA_length_random_nuclear_window_demo/input/Homo_sapiens.GRCh38.dna_sm.chromosome.MT.fa"
+python "other scripts/mtDNA_length_GC_matched_window_demo/run_mtDNA_length_GC_matched_window_demo.py" \
+  --genome-fasta "other scripts/mtDNA_length_GC_matched_window_demo/input/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa" \
+  --mtdna-fasta "other scripts/mtDNA_length_GC_matched_window_demo/input/Homo_sapiens.GRCh38.dna_sm.chromosome.MT.fa"
+```
+
+## Notes
+
+- PWM files are tab-delimited matrices with one header row and four nucleotide rows.
+- Rendered figures are included for convenience.
+- Source data are included so each plotted panel can be regenerated without external local paths.
